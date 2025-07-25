@@ -13,7 +13,7 @@ import PartialCrocoParkContact from './components/partials/partial_crocopark_con
 
 function App() {
   return (
-    <BrowserRouter >
+    <BrowserRouter basename="/deprecated">
       <Routes>
         <Route path="/" element={<HeaderMain />}>
           <Route index element={<PartialHome />} />
@@ -26,7 +26,7 @@ function App() {
         </Route>
         <Route path="/page_testing" element={<PageTesting />} />
       </Routes>
-    </BrowserRouter >
+    </BrowserRouter>
   )
 }
 
