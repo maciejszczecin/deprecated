@@ -1,0 +1,84 @@
+.main_box
+{
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    border: 1px solid gainsboro;
+    background-color: white;
+    border-radius: 1rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    box-sizing: border-box;
+    color: black;
+    min-width: 1000px;
+}
+
+.park_name {
+    text-decoration: none;
+    transition: all 0.25s ease-in-out;
+}
+
+.park_name:hover
+{
+    letter-spacing: 0.5rem;
+    scale: 1.1;
+}
+
+.name_part1 {
+    color: rgb(19, 123, 19);
+}
+
+.name_part2 {
+    color: rgb(151, 116, 0);
+}
+
+.crocopark_header
+{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo_style
+{
+    width: 20%;
+}
+
+.right_header_section
+{
+    width: 80%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.crocopark_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0;
+    gap: 1.5rem;
+}
+
+.menu_link
+{
+    text-decoration: none;
+    color: black;
+    transition: all 0.25s ease-in-out;
+}
+
+.menu_link:hover
+{
+    text-decoration: underline;
+    scale: 1.1; 
+    font-weight: 500;
+    letter-spacing: 0.1rem;
+}
+
+.section_header
+{
+    color: rgb(19, 123, 19);
+    margin: 0px;
+    margin-top: 1rem;
+}

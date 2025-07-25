@@ -1,0 +1,26 @@
+.link
+{
+    text-decoration: none;
+    color: white;
+    transition: all 0.25s ease-in-out;
+}
+
+.link:hover
+{
+  text-decoration: underline;
+  letter-spacing: 0.5rem;
+  font-weight: 600;
+  color: whitesmoke;
+}
+
+.main
+{
+  width: 100%;
+  /* background-color: #303030; */
+  background: #303030;
+  background: linear-gradient(180deg, rgba(48, 48, 48, 1) 0%, rgba(80, 80, 80, 1) 100%);
+  color: white;
+  box-shadow: 0px 2rem 2rem 0px rgba(0, 0, 0, 0.233) inset;
+  padding: 1rem;
+  height: 95vh;
+}
