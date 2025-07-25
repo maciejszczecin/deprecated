@@ -15,16 +15,16 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<HeaderMain />}>
+        <Route path="/deprecated" element={<HeaderMain />}>
           <Route index element={<PartialHome />} />
-          <Route path="helloworld" element={<PartialHelloWorld />} />
-          <Route path="crocopark/home" element={<PartialCrocoParkHome />} />
-          <Route path="crocopark/attractions_and_species" element={<PartialCrocoParkAttractionsAndSpecies />} />
-          <Route path="crocopark/information" element={<PartialCrocoParkContact />} />
-          <Route path="crocopark/tickets" element={<PartialCrocoParkTickets />} />
-          <Route path="*" element={<Partial404Page />} />
+          <Route path="/deprecated/helloworld" element={<PartialHelloWorld />} />
+          <Route path="/deprecated/crocopark/home" element={<PartialCrocoParkHome />} />
+          <Route path="/deprecated/crocopark/attractions_and_species" element={<PartialCrocoParkAttractionsAndSpecies />} />
+          <Route path="/deprecated/crocopark/information" element={<PartialCrocoParkContact />} />
+          <Route path="/deprecated/crocopark/tickets" element={<PartialCrocoParkTickets />} />
+          <Route path="/deprecated/*" element={<Partial404Page />} />
         </Route>
-        <Route path="page_testing" element={<PageTesting />} />
+        <Route path="/deprecated/page_testing" element={<PageTesting />} />
       </Routes>
     </BrowserRouter>
   )
