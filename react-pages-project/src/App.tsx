@@ -1,4 +1,4 @@
-import { Route, BrowserRouter, Routes } from 'react-router-dom'
+import { Route, HashRouter , Routes } from 'react-router-dom'
 import './App.css'
 import HeaderMain from './components/headers/header_main/header_main'
 import PartialHome from './components/partials/partial_home/partial_home'
@@ -13,7 +13,7 @@ import PartialCrocoParkContact from './components/partials/partial_crocopark_con
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter >
       <Routes>
         <Route path="/" element={<HeaderMain />}>
           <Route index element={<PartialHome />} />
@@ -26,7 +26,7 @@ function App() {
         </Route>
         <Route path="/page_testing" element={<PageTesting />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter >
   )
 }
 
