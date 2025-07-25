@@ -17,12 +17,12 @@ function App() {
       <Routes>
         <Route path="/" element={<HeaderMain />}>
           <Route index element={<PartialHome />} />
-          <Route path="/helloworld" element={<PartialHelloWorld />} />
-          <Route path="/crocopark/home" element={<PartialCrocoParkHome />} />
-          <Route path="/crocopark/attractions_and_species" element={<PartialCrocoParkAttractionsAndSpecies />} />
-          <Route path="/crocopark/information" element={<PartialCrocoParkContact />} />
-          <Route path="/crocopark/tickets" element={<PartialCrocoParkTickets />} />
-          <Route path="/*" element={<Partial404Page />} />
+          <Route path="helloworld" element={<PartialHelloWorld />} />
+          <Route path="crocopark/home" element={<PartialCrocoParkHome />} />
+          <Route path="crocopark/attractions_and_species" element={<PartialCrocoParkAttractionsAndSpecies />} />
+          <Route path="crocopark/information" element={<PartialCrocoParkContact />} />
+          <Route path="crocopark/tickets" element={<PartialCrocoParkTickets />} />
+          <Route path="*" element={<Partial404Page />} />
         </Route>
         <Route path="/page_testing" element={<PageTesting />} />
       </Routes>
