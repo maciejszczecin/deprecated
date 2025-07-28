@@ -13,7 +13,7 @@ function partial_home() {
           Pages Available:
           <ul>
             <li className={`${style.li} ${style.link}`}><Link className={style.link} to="helloworld">Hello World Page</Link></li>
-            <li className={`${style.li} ${style.link}`}><Link className={style.link} to="crocopark/home">CrocoPark Page</Link></li>
+            <li className={`${style.li} ${style.link}`}><Link className={style.link} to="crocopark">CrocoPark Page</Link></li>
             <li className={`${style.li} ${style.link}`}><Link className={style.link} to="page_testing">Test Page 1 for ExpressJS</Link></li>
           </ul>
         </menu>
