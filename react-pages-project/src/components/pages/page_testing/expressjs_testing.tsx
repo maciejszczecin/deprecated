@@ -1,5 +1,5 @@
-// import style from './page_testing.module.css'
-const page_testing = () => {
+// import style from './expressjs_testing.module.css'
+const expressjs_testing = () => {
   const EndPoint1 = async () => {
     try
     {
@@ -78,4 +78,4 @@ const page_testing = () => {
   )
 };
 
-export default page_testing;
+export default expressjs_testing;

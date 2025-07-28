@@ -3,12 +3,12 @@ import './App.css'
 import HeaderMain from './components/headers/header_main/header_main'
 import PartialHome from './components/partials/partial_home/partial_home'
 import Partial404Page from './components/partials/partial_404_page/partial_404_page'
-import PageTesting from './components/pages/page_testing/page_testing'
+import PageTesting from './components/pages/page_testing/expressjs_testing'
 import PartialHelloWorld from './components/partials/partial_hello_world/partial_hello_world'
-import PartialCrocoParkHome from './components/partials/partial_crocopark_home/partial_crocopark_home'
-import PartialCrocoParkAttractionsAndSpecies from './components/partials/partial_crocopark_attractions_and_species/partial_crocopark_attractions_and_species'
-import PartialCrocoParkTickets from './components/partials/partial_crocopark_tickets/partial_crocopark_tickets'
-import PartialCrocoParkContact from './components/partials/partial_crocopark_contact/partial_crocopark_contact'
+import PartialCrocoParkHome from './components/partials/crocopark/partial_crocopark_home/partial_crocopark_home'
+import PartialCrocoParkAttractionsAndSpecies from './components/partials/crocopark/partial_crocopark_attractions_and_species/partial_crocopark_attractions_and_species'
+import PartialCrocoParkTickets from './components/partials/crocopark/partial_crocopark_tickets/partial_crocopark_tickets'
+import PartialCrocoParkContact from './components/partials/crocopark/partial_crocopark_contact/partial_crocopark_contact'
 
 
 function App() {
