@@ -5,32 +5,38 @@ function page_crocopark_body() {
   return (
     <>
       <title>Crocopark</title>
-      <link rel="icon" type="image/png" href="./../logo_256x256.png" />
       {/* <link rel="icon" type="image/png" href="./logo_256x256.png" /> */}
+      {/* <link rel="icon" type="image/png" href="./../../../../public/logo_256x256.png" /> */}
 
-      <main>
+      <section className={style.main}>
         <section className={style.main_box}>
-          <section className={style.crocopark_header}>
-            <img src="./../logo_256x256.png" alt="logo_256x256.png" className={style.logo_style}/>
+          <header className={style.header}>
+            <img className={style.logo} src="./logo_256x256.png" alt="logo" />
             <section className={style.right_header_section}>
               <h1>
-                <Link to="/crocopark/home" className={style.park_name}>
-                  <span className={style.name_part1}>CrocoPark</span>
+                <Link className={style.park_name} to="/crocopark">
+                  <span className={style.name_part1}>Crocopark</span>
                   &nbsp;
                   <span className={style.name_part2}>Agadir Marocco</span>
                 </Link>
               </h1>
-              <menu className={style.crocopark_menu}>
-                <Link to="/crocopark/attractions_and_species" className={style.menu_link}>Attractions & Species</Link>
-                <Link to="/crocopark/tickets" className={style.menu_link}>Tickets</Link>
-                <Link to="/crocopark/contact" className={style.menu_link}>Contact Information</Link>
+              <menu>
+                <Link to="/crocopark/attractions">Attractions</Link>
+                <Link to="/crocopark/tickets">Tickets</Link>
+                <Link to="/crocopark/contact">Contact</Link>
               </menu>
             </section>
-          </section>
+          </header>
+          
+          <main>
+          <Outlet></Outlet>
+          </main>
 
-          <Outlet />
+          <footer className={style.footer}>
+            <p>©2025©</p>
+          </footer>
         </section>
-      </main>
+      </section>
     </>
   )
 }

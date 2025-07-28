@@ -27,7 +27,7 @@ function App() {
           <Route index element={<Crocopark_PartialHome />} />
           <Route path="/crocopark/tickets" element={<Crocopark_PartialTickets />} />
           <Route path="/crocopark/contact" element={<Crocopark_PartialContact />} />
-          <Route path="/crocopark/attractions_and_species" element={<Crocopark_PartialAttractions />} />
+          <Route path="/crocopark/attractions" element={<Crocopark_PartialAttractions />} />
         </Route>
 
         <Route path="/page_testing" element={<Page_PageTesting />} />

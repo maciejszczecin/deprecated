@@ -10,7 +10,8 @@
     color: white;
     box-shadow: 0px 2rem 2rem 0px rgba(0, 0, 0, 0.233) inset;
     padding: 1rem;
-    height: 95vh;
+    min-height: 95vh;
+    box-sizing: border-box;
 }
 
 .h1
