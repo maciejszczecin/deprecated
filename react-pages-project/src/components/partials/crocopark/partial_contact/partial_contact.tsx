@@ -4,9 +4,6 @@ function partial_contact() {
   return (
     <>
       <title>Crocopark | Contact</title>
-      <link rel="icon" type="image/png" href="./../public/logo_256x256.png" />
-
-
       <section>
 
       </section>

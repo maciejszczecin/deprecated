@@ -4,9 +4,6 @@ function partial_attractions() {
   return (
     <>
       <title>Crocopark | Attractions</title>
-      <link rel="icon" type="image/png" href="./../public/logo_256x256.png" />
-
-
       <section>
 
       </section>

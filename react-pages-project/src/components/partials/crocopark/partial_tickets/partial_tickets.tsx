@@ -4,9 +4,6 @@ function partial_tickets() {
   return (
     <>
       <title>Crocopark | Tickets</title>
-      <link rel="icon" type="image/png" href="./../public/logo_256x256.png" />
-
-
       <section>
 
       </section>

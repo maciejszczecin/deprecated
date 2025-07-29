@@ -9,7 +9,7 @@ function page_crocopark_body() {
           <header className={style.header}>
             <img className={style.logo} src="./public/logo_256x256.png" alt="logo"   onError={e => {const target = e.currentTarget; if (target.src.endsWith("/logo_256x256.png")) {target.src = "./../public/logo_256x256.png";}}}/>
             <section className={style.right_header_section}>
-              <h1 style={{textAlign: 'center'}}>
+              <h1 style={{textAlign: 'center', margin: 0}}>
                 <Link className={style.park_name} to="/crocopark">
                   <span className={style.name_part1}>Crocopark</span>
                   &nbsp;
@@ -25,18 +25,15 @@ function page_crocopark_body() {
               </menu>
             </section>
           </header>
-          
-          <hr className={style.hr} />
 
+          <hr/>
 
-          <main>
-          <Outlet></Outlet>
+          <main className={style.content}>
+            <Outlet></Outlet>
           </main>
 
-          
-          
           <footer className={style.footer}>
-            <hr className={style.hr} />
+            <hr/>
             <p>©2025©</p>
           </footer>
         </section>
