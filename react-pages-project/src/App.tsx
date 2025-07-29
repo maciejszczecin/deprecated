@@ -23,7 +23,7 @@ function App() {
           <Route path="*" element={<Main_Partial404Page />} />
         </Route>
 
-        <Route path="/crocopark" element={<Crocopark_PageBody />}>
+        <Route path="/crocopark/" element={<Crocopark_PageBody />}>
           <Route index element={<Crocopark_PartialHome />} />
           <Route path="/crocopark/tickets" element={<Crocopark_PartialTickets />} />
           <Route path="/crocopark/contact" element={<Crocopark_PartialContact />} />
