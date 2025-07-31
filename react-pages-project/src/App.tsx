@@ -1,5 +1,6 @@
 import { Route, Routes, BrowserRouter } from 'react-router-dom'
 import './App.css'
+
 import Main_Header from './components/headers/header_main/header_main'
 import Main_PartialHome from './components/partials/main/partial_home/partial_home'
 import Main_Partial404Page from './components/partials/main/partial_404_page/partial_404_page'
@@ -12,6 +13,8 @@ import Crocopark_PartialContact from './components/partials/crocopark/partial_co
 import Crocopark_PartialAttractions from './components/partials/crocopark/partial_attractions/partial_attractions'
 
 import Page_PageTesting from './components/pages/expressjs_testing/expressjs_testing'
+
+import Page_ReduxPersist from './components/pages/state_persistence/state_persistence'
 
 function App() {
   return (
@@ -31,6 +34,7 @@ function App() {
         </Route>
 
         <Route path="/page_testing" element={<Page_PageTesting />} />
+        <Route path='/redux_persist' element={<Page_ReduxPersist />} />
       </Routes>
     </BrowserRouter>
   )

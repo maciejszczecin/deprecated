@@ -15,6 +15,7 @@ function partial_home() {
             <li className={`${style.li} ${style.link}`}><Link className={style.link} to="helloworld">Hello World Page</Link></li>
             <li className={`${style.li} ${style.link}`}><Link className={style.link} to="crocopark">CrocoPark Page</Link></li>
             <li className={`${style.li} ${style.link}`}><Link className={style.link} to="page_testing">Test Page 1 for ExpressJS</Link></li>
+            <li className={`${style.li} ${style.link}`}><Link className={style.link} to="redux_persist">Redux  Persist Test</Link></li>
           </ul>
         </menu>
       </main>
